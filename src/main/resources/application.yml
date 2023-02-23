@@ -5,3 +5,8 @@ spring:
   #服务名称
   application:
     name: one-springboot
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+
