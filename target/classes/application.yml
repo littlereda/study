@@ -1,0 +1,7 @@
+server:
+  port: 9999
+
+spring:
+  #服务名称
+  application:
+    name: one-springboot
