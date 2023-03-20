@@ -1,6 +1,7 @@
 package com.study.common;
 
 import com.study.enums.ReturnCode;
+import com.study.exception.BusinessException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -13,11 +14,17 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
  */
 @Slf4j
 @RestControllerAdvice
-public class ExceptionHandler {
+public class RestExceptionHandler {
 
-    @ExceptionHandler
+    @ExceptionHandler(Exception.class)
     public ResultData exception(Exception e){
-        log.info("全局异常处理，exception={}",e.getMessage(),e);
+        log.info("全局异常处理，message={},exception={}",e.getMessage(),e);
         return ResultData.fail(ReturnCode.RC999.getCode(),ReturnCode.RC999.getMessage());
+    }
+
+    @ExceptionHandler(BusinessException.class)
+    public ResultData exception(BusinessException e){
+        log.info("全局异常处理，code={},message={}",e.getErrorCode(),e.getErrorMsg());
+        return ResultData.fail(e.getErrorCode(),e.getErrorMsg());
     }
 }

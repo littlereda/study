@@ -2,13 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ef653ab-0b41-4bc1-bdab-449985897d39" name="Default Changelist" comment="redis添加">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/Utils/RedisUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/SpringbootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/SpringbootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/aspect/TestAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/aspect/TestAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/common/ResponseAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/common/ResponseAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/common/RestExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/common/RestExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/common/ResultData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/common/ResultData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/config/拦截器，过滤器，切面" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/config/拦截器，过滤器，切面" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/controller/KafkaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/controller/KafkaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/controller/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/controller/RedisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/controller/ResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/controller/ResultController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/domain/vo/MessageVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/domain/vo/MessageVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/enums/ReturnCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/enums/ReturnCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/filter/TestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/filter/TestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/interceptor/TestInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/interceptor/TestInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/service/KafkaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/service/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/service/KafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/utils/RedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/utils/RedisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/study/SpringbootApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/SpringbootApplication.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,10 +62,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -96,7 +115,17 @@
       <option name="presentableId" value="Default" />
       <updated>1677059818186</updated>
       <workItem from="1677059820854" duration="2139000" />
-      <workItem from="1677141631757" duration="4096000" />
+      <workItem from="1677141631757" duration="4918000" />
+      <workItem from="1677478827523" duration="462000" />
+      <workItem from="1677632861120" duration="124000" />
+      <workItem from="1678066252793" duration="19739000" />
+      <workItem from="1678268615542" duration="4209000" />
+      <workItem from="1678345036380" duration="1836000" />
+      <workItem from="1678671484425" duration="98000" />
+      <workItem from="1678958167865" duration="3234000" />
+      <workItem from="1679015421651" duration="19781000" />
+      <workItem from="1679278982232" duration="9008000" />
+      <workItem from="1679293932210" duration="2454000" />
     </task>
     <task id="LOCAL-00001" summary="redis添加">
       <created>1677145006438</created>
@@ -105,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677145006438</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fastjson+redisutil添加">
+      <created>1677145847322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677145847322</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +162,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="redis添加" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis添加" />
+    <MESSAGE value="fastjson+redisutil添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="fastjson+redisutil添加" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/study/controller/KafkaController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/study/controller/KafkaController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/study/common/ResponseAdvice.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/study/controller/ResultController.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

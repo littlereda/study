@@ -1,4 +1,8 @@
-package com.study.domain;
+package com.study.domain.vo;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @author hbc
@@ -6,5 +10,9 @@ package com.study.domain;
  * @description 描述
  * @date 2023/3/6 10:57
  */
-public class message {
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class MessageVo {
+    private String message;
 }

@@ -1,0 +1,13 @@
+区别：
+filter：
+可以拿到原始的http请求，无法获取请求控制器和控制器中的请求方法。
+
+interceptor：
+可以拿到请求器中的方法，但是拿不到方法参数。
+
+aspect：
+可以拿到方法参数，但拿不到http请求和响应对象
+
+
+执行顺序：
+filter->interceptor->advice->aspect

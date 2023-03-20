@@ -1,10 +1,9 @@
-package com.study.Utils;
+package com.study.utils;
 
 
 import com.alibaba.fastjson.JSON;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.*;
-import org.springframework.stereotype.Component;
 
 import java.nio.charset.Charset;
 import java.util.*;
@@ -17,7 +16,6 @@ import java.util.stream.Collectors;
  * @author hbc
  **/
 @SuppressWarnings(value = { "unchecked", "rawtypes" })
-@Component
 public class RedisUtils {
     @Autowired
     private RedisTemplate redisTemplate;
