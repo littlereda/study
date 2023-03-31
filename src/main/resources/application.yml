@@ -13,12 +13,12 @@ spring:
 #    hostname: 192.168.44.130
 #    posts: 9093
     consumer:
-      bootstrap-servers: 192.168.44.131:9092
+      bootstrap-servers: 192.168.44.134:9092
       group-id: hbc
       auto-offset-reset: earliest
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
     producer:
-      bootstrap-servers: 192.168.44.131:9092
+      bootstrap-servers: 192.168.44.134:9092
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
