@@ -6,16 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ef653ab-0b41-4bc1-bdab-449985897d39" name="Default Changelist" comment="redis添加">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/study_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/SpringbootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/SpringbootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/SpringbootApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/SpringbootApplication.class" afterDir="false" />
-    </list>
+    <list default="true" id="9ef653ab-0b41-4bc1-bdab-449985897d39" name="Default Changelist" comment="redis添加" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -57,16 +50,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/work/zhejiang/jmzkplatform" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.study.service.impl" />
+      <recent name="com.study.controller" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.study.Utils" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\study" />
+      <recent name="E:\projects\study\lib" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -86,7 +92,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.IdCardIdentifyServiceImplTest.test">
+    <configuration name="IdCardIdentifyServiceImplTest.idCardIdentify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.study.service.impl.IdCardIdentifyServiceImplTest" />
+      <option name="METHOD_NAME" value="idCardIdentify" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IdCardIdentifyServiceImplTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.study.service.impl.IdCardIdentifyServiceImplTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResultControllerTest.getObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.study.controller.ResultControllerTest" />
+      <option name="METHOD_NAME" value="getObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResultControllerTest.getStr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.study.controller.ResultControllerTest" />
+      <option name="METHOD_NAME" value="getStr" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="study" />
       <extension name="coverage">
@@ -102,7 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IdCardIdentifyServiceImplTest.test" />
+        <item itemvalue="JUnit.IdCardIdentifyServiceImplTest.idCardIdentify" />
+        <item itemvalue="JUnit.ResultControllerTest.getStr" />
         <item itemvalue="Spring Boot.SpringbootApplication" />
+        <item itemvalue="JUnit.ResultControllerTest.getObject" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +205,11 @@
       <workItem from="1679366258851" duration="8919000" />
       <workItem from="1679553013798" duration="1324000" />
       <workItem from="1679642409496" duration="23000" />
-      <workItem from="1679966412132" duration="35530000" />
+      <workItem from="1679966412132" duration="48128000" />
+      <workItem from="1680504922003" duration="2126000" />
+      <workItem from="1681182002915" duration="36000" />
+      <workItem from="1681353170767" duration="3520000" />
+      <workItem from="1681800225747" duration="14978000" />
     </task>
     <task id="LOCAL-00001" summary="redis添加">
       <created>1677145006438</created>
@@ -175,23 +253,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/study/controller/KafkaController.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/study/controller/KafkaController.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/study/common/ResponseAdvice.java</url>
           <line>34</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/study/controller/ResultController.java</url>
-          <line>31</line>
+          <line>34</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
