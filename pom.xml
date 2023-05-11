@@ -99,6 +99,19 @@
             <scope>system</scope>
             <systemPath>${basedir}/lib/opencv-460.jar</systemPath>
         </dependency>
+
+        <!--自动重启-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <version>2.7.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.9.1</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -111,6 +124,7 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <mainClass>com.study.SpringbootApplication</mainClass>
+                    <includeSystemScope>true</includeSystemScope>
                 </configuration>
                 <executions>
                     <execution>

@@ -22,9 +22,9 @@ public class ResultController {
     @GetMapping("/getStr")
     public String getStr() {
 //        int i = 9/0;
-//        throw new BusinessException(66,"自定义异常");
-        System.out.println("xingbuxing");
-        return "行不行啊";
+        throw new BusinessException(66,"自定义异常");
+//        System.out.println("xingbuxing");
+//        return "行不行啊";
     }
 
     @PostMapping("/getObject")
