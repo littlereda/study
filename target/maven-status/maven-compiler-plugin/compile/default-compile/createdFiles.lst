@@ -1,5 +1,6 @@
 com\study\domain\vo\MessageVo.class
 com\study\service\KafkaConsumer.class
+com\study\service\JwtService.class
 com\study\common\ResultData.class
 com\study\common\ResponseAdvice.class
 com\study\interceptor\TestInterceptor.class
@@ -15,9 +16,9 @@ com\study\controller\IdCardIdentifyController.class
 com\study\exception\BusinessException.class
 com\study\service\KafkaProducer$1.class
 com\study\SpringbootApplication.class
+com\study\utils\HttpClientUtil.class
 com\study\config\WebMvcConfig.class
 com\study\common\RestExceptionHandler.class
 com\study\enums\ReturnCode.class
 com\study\controller\ResultController.class
 com\study\filter\TestFilter.class
-com\study\service\impl\IdCardIdentifyServiceImpl.class

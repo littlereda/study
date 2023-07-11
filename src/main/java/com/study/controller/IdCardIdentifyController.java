@@ -15,11 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("id")
 public class IdCardIdentifyController {
-    @Autowired
-    private IdCardIdentifyService idCardIdentifyService;
+//    @Autowired
+//    private IdCardIdentifyService idCardIdentifyService;
 
     @PostMapping("/identify")
     public void IdCardIdentifyC(){
-        idCardIdentifyService.IdCardIdentify();
+//        idCardIdentifyService.IdCardIdentify();
     }
 }

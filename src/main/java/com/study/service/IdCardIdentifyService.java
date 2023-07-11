@@ -7,5 +7,5 @@ package com.study.service;
  * @date 2023/4/18 15:01
  */
 public interface IdCardIdentifyService {
-    void IdCardIdentify();
+//    void IdCardIdentify();
 }

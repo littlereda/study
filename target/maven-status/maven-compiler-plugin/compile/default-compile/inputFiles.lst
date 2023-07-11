@@ -2,7 +2,9 @@ E:\projects\study2\study\src\main\java\com\study\service\IdCardIdentifyService.j
 E:\projects\study2\study\src\main\java\com\study\common\ResultData.java
 E:\projects\study2\study\src\main\java\com\study\service\KafkaProducer.java
 E:\projects\study2\study\src\main\java\com\study\controller\KafkaController.java
+E:\projects\study2\study\src\main\java\com\study\utils\HttpClientUtil.java
 E:\projects\study2\study\src\main\java\com\study\SpringbootApplication.java
+E:\projects\study2\study\src\main\java\com\study\service\JwtService.java
 E:\projects\study2\study\src\main\java\com\study\controller\IdCardIdentifyController.java
 E:\projects\study2\study\src\main\java\com\study\exception\BusinessException.java
 E:\projects\study2\study\src\main\java\com\study\enums\ReturnCode.java
