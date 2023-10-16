@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
 import javax.annotation.Resource;
+import java.util.Objects;
 
 /**
  * @author hbc
@@ -33,12 +34,15 @@ public class ResponseAdvice implements ResponseBodyAdvice<Object> {
     @Override
     public Object beforeBodyWrite(Object o, MethodParameter methodParameter, MediaType mediaType, Class<? extends HttpMessageConverter<?>> aClass, ServerHttpRequest serverHttpRequest, ServerHttpResponse serverHttpResponse) {
         if(o instanceof String || o instanceof Number){
-            return objectMapper.writeValueAsString(ResultData.success(o));
+            return objectMapper.writeValueAsString(AjaxResult.success(o));
         }
         if(o instanceof ResultData){
             return o;
         }
-        return ResultData.success(o);
+        if(Objects.isNull(o)){
+            AjaxResult.success(0);
+        }
+        return AjaxResult.success(o);
     }
 
 }

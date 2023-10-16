@@ -1,0 +1,32 @@
+#数据库配置
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/study?characterEncoding=utf-8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+aliyuncs:
+  regionId: cn-hangzhou
+  accessKeyId: LTAI5tLpsoQmLx9TRmeNY98T
+  secret: XBVA5k6A9O2W4ojcNIxsD0RyJ7XqCF
+  sysDomain: dysmsapi.aliyuncs.com
+  product: Dysmsapi
+  endpointName: cn-hangzhou
+  signName: 延崇高速管理中心
+  codes:
+    # 救援事件接收
+    rescueEvent:
+      templateCode: SMS_228015932
+    # 任务分配审核通知
+    taskReceive:
+      templateCode: SMS_226420701
+    # 催办通知
+    urging:
+      templateCode: SMS_226425749
+    # 任务分配通知
+    taskDispatch:
+      templateCode: SMS_226415821
+    # 阈值报警内容
+    notice:
+      templateCode: SMS_226416283

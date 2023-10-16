@@ -1,11 +1,9 @@
-package com.tiger.common.config;
+package com.study.config;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
-
-import java.util.Map;
 
 /**
  * @Description: 发送短信配置

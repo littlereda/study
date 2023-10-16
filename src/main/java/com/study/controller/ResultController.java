@@ -1,13 +1,12 @@
 package com.study.controller;
 
+import com.study.constant.HttpStatus;
 import com.study.domain.vo.MessageVo;
 import com.study.exception.BusinessException;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.sql.SQLOutput;
 
 /**
  * @author hbc
@@ -22,7 +21,7 @@ public class ResultController {
     @GetMapping("/getStr")
     public String getStr() {
 //        int i = 9/0;
-        throw new BusinessException(66,"自定义异常");
+        throw new BusinessException(HttpStatus.ERROR,"自定义异常");
 //        System.out.println("xingbuxing");
 //        return "行不行啊";
     }

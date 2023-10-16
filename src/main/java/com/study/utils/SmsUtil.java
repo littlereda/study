@@ -1,24 +1,17 @@
-package com.tiger.common.utils;
+package com.study.utils;
 
-import cn.hutool.json.JSONObject;
-import cn.hutool.json.JSONString;
 import cn.hutool.json.JSONUtil;
-import cn.hutool.json.serialize.JSONArraySerializer;
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.dysmsapi.model.v20170525.SendSmsRequest;
 import com.aliyuncs.dysmsapi.model.v20170525.SendSmsResponse;
 import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.profile.DefaultProfile;
 import com.aliyuncs.profile.IClientProfile;
-import com.tiger.common.config.SmsMessageConfig;
-import lombok.Value;
+import com.study.config.SmsMessageConfig;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-import java.util.Map;
 
 /**
  * @author hbc

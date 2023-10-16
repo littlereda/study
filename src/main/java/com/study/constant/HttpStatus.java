@@ -1,4 +1,4 @@
-package com.ruoyi.common.constant;
+package com.study.constant;
 
 /**
  * 返回状态码

@@ -2,8 +2,7 @@ package com.study.aspect;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.Around;
-import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
@@ -35,6 +34,21 @@ public class TestAspect {
         log.info("请求:{}, 耗时{}ms", proceedingJoinPoint.getSignature(), (endTime - startTime));
         log.info("切片结束。。。");
         return response;
+    }
+
+    @Pointcut("execution(* com.study.controller.*.*(..))")
+    public void pointcut() {
+
+    }
+
+    @Before("pointcut()")
+    public void before() {
+        log.info("aop before");
+    }
+
+    @After("pointcut()")
+    public void after() {
+        log.info("aop after");
     }
 
 }

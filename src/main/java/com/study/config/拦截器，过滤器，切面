@@ -1,9 +1,18 @@
 区别：
 filter：
 可以拿到原始的http请求，无法获取请求控制器和控制器中的请求方法。
+(基于servlet实现，只可以获取请求中的request和response，无法获取响应方法的信息，可以拦截所有的请求)
+场景：权限认证，敏感词检测，访问日志记录
 
 interceptor：
 可以拿到请求器中的方法，但是拿不到方法参数。
+（基于spring实现，通过反射机制，动态代理实现，可以获取spring中的bean，只对action请求起作用，并可以获取action上下文）
+场景：访问日志，权限管理
+
+advice:
+(基于spring实现)
+场景:全局异常处理（配合自定义异常），数据绑定，数据预处理
+（@RestControllerAdvice，responsebodyAdvice，requestbodyAdvice）
 
 aspect：
 可以拿到方法参数，但拿不到http请求和响应对象
